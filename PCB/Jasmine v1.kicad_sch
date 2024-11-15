@@ -1768,221 +1768,6 @@
 				)
 			)
 		)
-		(symbol "SofleKeyboard:SW_PUSH_LED"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW?"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SW_PUSH_LED"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 0.635 0.635)
-					)
-				)
-			)
-			(property "Footprint" "SofleRGB:Choc_Hotswap_SK6812MiniE"
-				(at 0.762 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SW_PUSH_LED_1_1"
-				(rectangle
-					(start -4.318 1.27)
-					(end 4.318 1.524)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.524) (xy -0.762 2.286) (xy 0.762 2.286) (xy 1.016 1.524)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at 7.62 0 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 0.6096 0.6096)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -7.62 0 0)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 0.6096 0.6096)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SW_PUSH_LED_2_0"
-				(text "SK6812 MINI-E"
-					(at 0 -1.27 0)
-					(effects
-						(font
-							(size 0.4064 0.4064)
-						)
-					)
-				)
-			)
-			(symbol "SW_PUSH_LED_2_1"
-				(rectangle
-					(start 3.81 -3.81)
-					(end -3.81 3.81)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -5.08 2.54 0)
-					(length 1.27) hide
-					(name "VDD"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at -5.08 -2.54 0)
-					(length 1.27)
-					(name "DOUT"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 5.08 -2.54 180)
-					(length 1.27) hide
-					(name "GND"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 2.54 180)
-					(length 1.27)
-					(name "DIN"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 0.635 0.635)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_names
@@ -2201,12 +1986,6 @@
 		)
 	)
 	(junction
-		(at 421.64 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04b65196-b78e-4fbf-ae0f-a8dffc9967e1")
-	)
-	(junction
 		(at 243.84 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2231,10 +2010,10 @@
 		(uuid "0ae914b2-5305-431d-a256-fc191cc1f093")
 	)
 	(junction
-		(at 568.96 130.81)
+		(at 541.02 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "12236c14-2f9c-4173-b7f5-c0cb2ad50037")
+		(uuid "105e541f-0d4a-443c-b4c1-61d003cfbd20")
 	)
 	(junction
 		(at 546.1 143.51)
@@ -2273,6 +2052,12 @@
 		(uuid "1f45b995-87ad-4584-805c-f4c38d9480df")
 	)
 	(junction
+		(at 523.24 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203c5d25-b477-4ff3-8c08-4b4ac5e6b755")
+	)
+	(junction
 		(at 459.74 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2303,6 +2088,12 @@
 		(uuid "271bcb0f-ce46-467c-8c8b-51ffe8fde803")
 	)
 	(junction
+		(at 542.29 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a6c9a74-1241-490e-8479-0f942bc3987a")
+	)
+	(junction
 		(at 497.84 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2321,10 +2112,22 @@
 		(uuid "2c5e3af4-f1b5-4f28-8dc0-cbacf08ac25c")
 	)
 	(junction
+		(at 546.1 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30cf6c85-b4e1-4a32-bd77-835775f65ed0")
+	)
+	(junction
 		(at 152.4 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35216607-8b30-4ec6-8599-faa97f8d7cf3")
+	)
+	(junction
+		(at 412.75 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36635f91-ccc1-4efc-b34a-9e9f6630b394")
 	)
 	(junction
 		(at 492.76 90.17)
@@ -2373,6 +2176,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4181dce3-c6e5-4017-b30e-2d623ae11898")
+	)
+	(junction
+		(at 519.43 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4475755d-77cc-4a26-a258-aca6c4481a97")
 	)
 	(junction
 		(at 217.17 143.51)
@@ -2723,12 +2532,6 @@
 		(uuid "c546a310-90ff-4f09-9bb1-9450db276767")
 	)
 	(junction
-		(at 541.02 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c883cbfb-0b30-4570-b2f4-4fe7fce19202")
-	)
-	(junction
 		(at 337.82 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2801,6 +2604,12 @@
 		(uuid "e208daf9-70be-4592-aa08-288bc17015e5")
 	)
 	(junction
+		(at 407.67 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2d483ae-53d0-4259-9ecf-d956bb331526")
+	)
+	(junction
 		(at 297.18 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2837,12 +2646,6 @@
 		(uuid "eee26c11-36b2-415f-8a3e-1d8cf8d98a52")
 	)
 	(junction
-		(at 574.04 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eefc87d6-9ac6-4700-b7ad-08cecca813c1")
-	)
-	(junction
 		(at 537.21 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2875,6 +2678,16 @@
 			(type default)
 		)
 		(uuid "037ea699-6131-4789-8520-52022635e247")
+	)
+	(wire
+		(pts
+			(xy 543.56 90.17) (xy 537.21 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0422987d-1075-4f9a-bdd9-2393547753db")
 	)
 	(wire
 		(pts
@@ -2925,6 +2738,16 @@
 			(type default)
 		)
 		(uuid "0992cba5-5aa4-4f84-a46c-196d6b73e06e")
+	)
+	(wire
+		(pts
+			(xy 546.1 130.81) (xy 541.02 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a7672e3-5ab5-41c4-8327-4dcc7fa6dd91")
 	)
 	(wire
 		(pts
@@ -2985,16 +2808,6 @@
 			(type default)
 		)
 		(uuid "10a908fd-465f-447f-8b4b-bb7d298f9ebe")
-	)
-	(wire
-		(pts
-			(xy 104.775 35.56) (xy 110.49 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1141d818-0f2d-483c-8cf0-d111febf9c52")
 	)
 	(wire
 		(pts
@@ -3105,16 +2918,6 @@
 			(type default)
 		)
 		(uuid "1c1f922c-6913-4ce3-bf89-e90bbc361197")
-	)
-	(wire
-		(pts
-			(xy 120.65 52.07) (xy 120.65 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c53feb1-3f08-4d4b-842d-5832e0a8ae89")
 	)
 	(wire
 		(pts
@@ -3378,6 +3181,16 @@
 	)
 	(wire
 		(pts
+			(xy 528.32 135.89) (xy 523.24 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a808b60-1e80-455b-94a0-e554115f1895")
+	)
+	(wire
+		(pts
 			(xy 426.72 143.51) (xy 448.31 143.51)
 		)
 		(stroke
@@ -3448,13 +3261,13 @@
 	)
 	(wire
 		(pts
-			(xy 412.75 176.53) (xy 412.75 163.83)
+			(xy 523.24 130.81) (xy 519.43 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48e75dbe-ddea-4f11-acf3-13a129e90d4d")
+		(uuid "444c907b-5479-4fb0-ae5f-667134c25bc1")
 	)
 	(wire
 		(pts
@@ -3728,6 +3541,16 @@
 	)
 	(wire
 		(pts
+			(xy 419.1 151.13) (xy 407.67 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a9e919f-e9ac-450c-b69a-fc610a80eff5")
+	)
+	(wire
+		(pts
 			(xy 469.9 143.51) (xy 491.49 143.51)
 		)
 		(stroke
@@ -3768,16 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 171.45) (xy 426.72 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "710c9c88-5dba-4414-9a25-2723faa4467f")
-	)
-	(wire
-		(pts
 			(xy 264.16 143.51) (xy 275.59 143.51)
 		)
 		(stroke
@@ -3805,16 +3618,6 @@
 			(type default)
 		)
 		(uuid "7585cece-9662-41bb-be23-25a263fdf887")
-	)
-	(wire
-		(pts
-			(xy 541.02 130.81) (xy 568.96 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7649a830-ad4e-4fe0-9fea-9a35878e469f")
 	)
 	(wire
 		(pts
@@ -3858,13 +3661,13 @@
 	)
 	(wire
 		(pts
-			(xy 431.8 176.53) (xy 412.75 176.53)
+			(xy 548.64 95.25) (xy 542.29 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cb66621-a5a2-4a14-92be-2a010e64ecc4")
+		(uuid "7b3e5496-83db-4e92-88d7-82f7e171427c")
 	)
 	(wire
 		(pts
@@ -3908,7 +3711,7 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 143.51) (xy 574.04 143.51)
+			(xy 546.1 143.51) (xy 605.79 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3928,16 +3731,6 @@
 	)
 	(wire
 		(pts
-			(xy 568.96 130.81) (xy 600.71 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a8ec32-5e57-4789-bc7b-f1f02da73bf1")
-	)
-	(wire
-		(pts
 			(xy 292.1 168.91) (xy 292.1 163.83)
 		)
 		(stroke
@@ -3948,16 +3741,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 120.65 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89012fd7-caff-4b26-9cf4-61e88e6b05a2")
-	)
-	(wire
-		(pts
 			(xy 152.4 143.51) (xy 173.99 143.51)
 		)
 		(stroke
@@ -3965,16 +3748,6 @@
 			(type default)
 		)
 		(uuid "8f4d5bb2-00b9-42ee-804f-4a183a148d76")
-	)
-	(wire
-		(pts
-			(xy 537.21 90.17) (xy 572.77 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "904206b0-23f2-4547-9db7-82432e8eee05")
 	)
 	(wire
 		(pts
@@ -4015,16 +3788,6 @@
 			(type default)
 		)
 		(uuid "96b2320b-e830-4516-a0a4-73ad35e3a7ab")
-	)
-	(wire
-		(pts
-			(xy 574.04 143.51) (xy 605.79 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "975e79c0-bd76-4d69-a215-65869a8cbc16")
 	)
 	(wire
 		(pts
@@ -4248,6 +4011,16 @@
 	)
 	(wire
 		(pts
+			(xy 424.18 156.21) (xy 412.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdc55c9e-a40d-407d-bf2a-10c177024dce")
+	)
+	(wire
+		(pts
 			(xy 247.65 102.87) (xy 256.54 102.87)
 		)
 		(stroke
@@ -4345,16 +4118,6 @@
 			(type default)
 		)
 		(uuid "c470fef9-2090-41f8-a973-eaa685beb8ed")
-	)
-	(wire
-		(pts
-			(xy 120.65 55.245) (xy 110.49 55.245)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c58ab602-a964-430f-b978-a7a582dbef09")
 	)
 	(wire
 		(pts
@@ -4638,16 +4401,6 @@
 	)
 	(wire
 		(pts
-			(xy 421.64 130.81) (xy 421.64 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e318eeb1-fb1e-41d2-a49e-282cac5f3484")
-	)
-	(wire
-		(pts
 			(xy 514.35 110.49) (xy 519.43 110.49)
 		)
 		(stroke
@@ -4655,16 +4408,6 @@
 			(type default)
 		)
 		(uuid "e31a1ded-dc98-467d-bf5e-d5e43c3ff32a")
-	)
-	(wire
-		(pts
-			(xy 110.49 43.18) (xy 110.49 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4cf50c6-10ba-4ab9-b3eb-c989688b270d")
 	)
 	(wire
 		(pts
@@ -4745,6 +4488,16 @@
 			(type default)
 		)
 		(uuid "ee4b048e-cf32-4bfa-a617-4ee45a6b8c46")
+	)
+	(wire
+		(pts
+			(xy 551.18 135.89) (xy 546.1 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10ea7af-482f-4b20-8203-27ca7da5602a")
 	)
 	(wire
 		(pts
@@ -4848,16 +4601,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 43.18) (xy 110.49 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb54b503-8595-4318-b49e-ab74967e084c")
-	)
-	(wire
-		(pts
 			(xy 427.99 110.49) (xy 433.07 110.49)
 		)
 		(stroke
@@ -4875,16 +4618,6 @@
 			(type default)
 		)
 		(uuid "fdfccd37-903a-4521-ba40-fac94b27bbd6")
-	)
-	(wire
-		(pts
-			(xy 110.49 55.245) (xy 110.49 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fed2c20e-937a-443d-ab28-fbf198bf8e63")
 	)
 	(wire
 		(pts
@@ -6344,26 +6077,6 @@
 			)
 		)
 	)
-	(global_label "LED"
-		(shape input)
-		(at 104.775 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ad73df4f-67c9-4b4a-bf8d-5831039fb82e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.775 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "col7"
 		(shape input)
 		(at 320.04 81.28 90)
@@ -7499,87 +7212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard:SW_PUSH_LED")
-		(at 115.57 38.1 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f749fcb")
-		(property "Reference" "SW1"
-			(at 115.57 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH_LED"
-			(at 115.57 31.1404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "1311c8ed-129b-408f-b915-9e46b5e551c6")
-		)
-		(pin "1"
-			(uuid "1885d353-9434-4b2f-b46e-e1230d65f320")
-		)
-		(pin "3"
-			(uuid "9c831ffc-def1-42b6-87ea-4357c8d92ef4")
-		)
-		(pin "5"
-			(uuid "aa8a04f7-0294-4652-92c7-42b1606689aa")
-		)
-		(pin "2"
-			(uuid "b15295c2-70dc-46d8-8abf-66d6b4a430c4")
-		)
-		(pin "4"
-			(uuid "f83d9668-ef5d-4931-a3eb-c63f6ad7ee5c")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "SW1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 193.04 113.03 0)
 		(unit 1)
@@ -7867,176 +7499,6 @@
 			(project "Jasmine v1"
 				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
 					(reference "MX54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard:SW_PUSH_LED")
-		(at 115.57 49.53 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09224e19-1a11-4196-9005-129ce7a52862")
-		(property "Reference" "SW2"
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH_LED"
-			(at 115.57 42.5704 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "1311c8ed-129b-408f-b915-9e46b5e551c7")
-		)
-		(pin "1"
-			(uuid "7333f1c9-1a5f-4f90-9547-04b98d3fe1aa")
-		)
-		(pin "3"
-			(uuid "87a2f6ce-28f3-446e-8c02-d0955e121398")
-		)
-		(pin "5"
-			(uuid "aa8a04f7-0294-4652-92c7-42b1606689ab")
-		)
-		(pin "2"
-			(uuid "84ca9c7b-4fb1-478a-a015-044e2aa48886")
-		)
-		(pin "4"
-			(uuid "b970c3ff-70e3-4375-924a-efba3b00959e")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "SW2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 577.85 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09af810f-58cf-40f4-81ad-0bfc10368a16")
-		(property "Reference" "D18"
-			(at 580.136 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 580.136 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 582.295 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 577.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 577.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 577.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 577.85 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6cb2c607-a49d-4a92-9a8b-5aa8e27fc04e")
-		)
-		(pin "1"
-			(uuid "91ac7634-2d5c-4fb0-b2fa-99640978079c")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -9932,87 +9394,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SofleKeyboard:SW_PUSH_LED")
-		(at 115.57 60.96 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "27b21243-3a89-41aa-9cb7-1b4d1fec1edb")
-		(property "Reference" "SW3"
-			(at 115.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH_LED"
-			(at 115.57 54.0004 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:LED_SK6812MINI"
-			(at 115.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "1311c8ed-129b-408f-b915-9e46b5e551c8")
-		)
-		(pin "1"
-			(uuid "493c2ad4-3a0a-45ab-b0c1-4e188970e2d6")
-		)
-		(pin "3"
-			(uuid "94dd9d96-e6b2-4307-9511-62c81e219455")
-		)
-		(pin "5"
-			(uuid "aa8a04f7-0294-4652-92c7-42b1606689ac")
-		)
-		(pin "2"
-			(uuid "35d1fd6f-6f4e-4ab7-9e5a-6540805a885d")
-		)
-		(pin "4"
-			(uuid "34218125-0cd2-4a41-839c-3836eb08db17")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "SW3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
 		(at 254 92.71 0)
 		(unit 1)
@@ -11507,7 +10888,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 571.5 133.35 0)
+		(at 525.78 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11516,7 +10897,7 @@
 		(fields_autoplaced yes)
 		(uuid "4355f51f-e31b-4759-af57-af0cf45efb79")
 		(property "Reference" "MX51"
-			(at 571.5 125.984 0)
+			(at 525.78 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11524,15 +10905,16 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 571.5 128.524 0)
+			(at 525.78 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 571.5 133.35 0)
+			(at 525.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11541,7 +10923,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 571.5 133.35 0)
+			(at 525.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11550,7 +10932,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 571.5 133.35 0)
+			(at 525.78 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12672,7 +12054,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 575.31 92.71 0)
+		(at 546.1 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12681,7 +12063,7 @@
 		(fields_autoplaced yes)
 		(uuid "63ab0e67-44bd-4b13-85b2-c2f172cc6224")
 		(property "Reference" "MX18"
-			(at 575.31 85.344 0)
+			(at 546.1 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12689,7 +12071,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 575.31 87.884 0)
+			(at 546.1 87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12697,7 +12079,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 575.31 92.71 0)
+			(at 546.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12706,7 +12088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 575.31 92.71 0)
+			(at 546.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12715,7 +12097,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 575.31 92.71 0)
+			(at 546.1 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14530,95 +13912,6 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148W")
-		(at 574.04 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "913ac16e-7491-4ecc-8b87-c1c61e2b03e3")
-		(property "Reference" "D51"
-			(at 576.326 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 576.326 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 578.485 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 574.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 574.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 574.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 574.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "35c90e85-a2d9-4e34-b828-d16d165360f7")
-		)
-		(pin "1"
-			(uuid "740f92ce-d1c0-4460-a0dc-1455e466dca6")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "D51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
 		(at 330.2 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15022,7 +14315,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 429.26 173.99 0)
+		(at 421.64 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15031,7 +14324,7 @@
 		(fields_autoplaced yes)
 		(uuid "985023ea-51a4-49a7-9206-d34294492f5c")
 		(property "Reference" "MX66"
-			(at 429.26 166.624 0)
+			(at 421.64 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +14332,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 429.26 169.164 0)
+			(at 421.64 148.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +14340,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
-			(at 429.26 173.99 0)
+			(at 421.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15056,7 +14349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 429.26 173.99 0)
+			(at 421.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15065,7 +14358,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 429.26 173.99 0)
+			(at 421.64 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16867,95 +16160,6 @@
 			(project "Jasmine v1"
 				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148W")
-		(at 605.79 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8c948aa-9dcc-47f5-aa49-d769e2efbf42")
-		(property "Reference" "D52"
-			(at 608.076 138.4299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148W"
-			(at 608.076 140.9699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_Components:Diode_SOD-123"
-			(at 610.235 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
-			(at 605.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
-			(at 605.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 605.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 605.79 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa77e1db-ac7c-479a-a7ff-df9582b53f27")
-		)
-		(pin "1"
-			(uuid "4a7dd9b4-3120-44ea-947b-5b3be8c55579")
-		)
-		(instances
-			(project "Jasmine v1"
-				(path "/62537c4c-0af0-4cc2-94f8-405d6e6e093f"
-					(reference "D52")
 					(unit 1)
 				)
 			)
@@ -19154,7 +18358,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-mx:MX_SW_HS_CPG151101S11")
-		(at 603.25 133.35 0)
+		(at 548.64 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19163,7 +18367,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcbc9db7-5805-43e8-8c36-ff84d9c0215a")
 		(property "Reference" "MX52"
-			(at 603.25 125.984 0)
+			(at 548.64 125.984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19171,7 +18375,7 @@
 			)
 		)
 		(property "Value" "MX_SW_HS"
-			(at 603.25 128.524 0)
+			(at 548.64 128.524 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19179,7 +18383,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u"
-			(at 603.25 133.35 0)
+			(at 548.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19188,7 +18392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 603.25 133.35 0)
+			(at 548.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19197,7 +18401,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
-			(at 603.25 133.35 0)
+			(at 548.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)

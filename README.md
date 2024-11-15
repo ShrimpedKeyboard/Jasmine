@@ -5,7 +5,7 @@
 i literally just made this because i got sold a green asymplex arrow key artisan 
 
 
-![alt text](https://github.com/ShrimpedKeyboard/Shrimptana/blob/main/Misc/KLE.png?raw=true)
+![alt text](https://github.com/ShrimpedKeyboard/Jasmine/blob/main/KLE/jasmine.png?raw=true)
  --- 
 
 ## Case
@@ -13,9 +13,9 @@ i literally just made this because i got sold a green asymplex arrow key artisan
 Lilac uses a 8 layer stacked acrylic case with a bottom mount/Gasket mount plate
 The case uses m3 spacers and screws and the plate uses m2 / 40mm gaskets
 
-![alt text](https://github.com/ShrimpedKeyboard/Shrimptana/blob/main/Gallery/Renders/Case%201.png?raw=true)
+![alt text](https://github.com/ShrimpedKeyboard/Jasmine/blob/main/Pictures/Case%201.png?raw=true)
 
-![alt text](https://github.com/ShrimpedKeyboard/Shrimptana/blob/main/Gallery/Renders/Case%202.png?raw=true)
+![alt text](https://github.com/ShrimpedKeyboard/Jasmine/blob/main/Pictures/Case%202.png?raw=true)
 
  --- 
 

@@ -2,10 +2,14 @@
 ## a 50% keyboard with a southpaw numpad and a 1u center gap 
 
 
-i literally just made this because i got sold a green asymplex arrow key artisan 
+About V2
+V1 had some small issues also had a forced split plate this has been changed i have also added an extra optional plate mounting point as the board was extremely bouncy but sounded great with the four mounting points it had
+Soundtest: https://youtu.be/e6pTmhEIKVE
 
-
+V1 pic 
 ![alt text](https://github.com/ShrimpedKeyboard/Jasmine/blob/main/Pics/V1%20picture.jpg?raw=true)
+ --- 
+
  --- 
 
 ## Case
